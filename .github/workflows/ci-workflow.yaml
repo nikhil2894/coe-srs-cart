@@ -6,10 +6,10 @@ on:
     paths-ignore:
       - 'DCOS/**'
       - 'K8s/**'   
-   workflow_dispatch:
-   paths-ignore:
-       - 'DCOS/**'
-       - 'K8s/**'
+    workflow_dispatch:
+    paths-ignore:
+      - 'DCOS/**'
+      - 'K8s/**'
   pull_request:
 
 env:
